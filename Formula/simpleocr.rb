@@ -1,13 +1,13 @@
 class Simpleocr < Formula
   desc "macOS OCR CLI using Apple Vision for image-to-text workflows in local AI pipelines"
   homepage "https://github.com/tobilg/simpleocr"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tobilg/simpleocr/releases/download/v#{version}/simpleocr-macos-arm64.tar.gz"
-      sha256 "1d34d066240daa3bfbb4e16852ae9a753439445b014115b2247baa37d3a58a75"
+      sha256 "66173f3b91c15b7ac24540472d14bf0273d27940e12e35b62090a593d8369d83"
     end
   end
 
